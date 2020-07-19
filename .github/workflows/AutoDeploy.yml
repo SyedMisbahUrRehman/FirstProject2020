@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ scnz.surge.sh --token $ {{ secrets.surge_token}}
+      run: surge ./ scnz.surge.sh --token $ {{ secrets.surge_token }}
